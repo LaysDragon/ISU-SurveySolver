@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Survey> 
+    <question> 
+        <topic>如下是我修習本門課的主要原因（可複選）：</topic>  
+        <checkbox answer="必修" isChecked="NO"/>  
+        <checkbox answer="興趣" isChecked="YES"/>  
+        <checkbox answer="升學" isChecked="NO"/>  
+        <checkbox answer="就業" isChecked="NO"/>  
+        <checkbox answer="證照" isChecked="NO"/>  
+        <checkbox answer="自我能力提升" isChecked="NO"/>  
+        <checkbox answer="學分數需求" isChecked="NO"/>  
+        <checkbox answer="老師不常點名" isChecked="NO"/>  
+        <checkbox answer="時間可配合" isChecked="NO"/>  
+        <checkbox answer="老師給分很寬鬆" isChecked="NO"/>  
+        <checkbox answer="其他" isChecked="NO"> 
+            <addtionalAnswer/> 
+        </checkbox> 
+    </question>  
+    <question> 
+        <topic>我自認我的學習態度是認真的。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X01X02/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X01X02/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X01X02/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X01X02/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X01X02/Y"/> 
+    </question>  
+    <question> 
+        <topic>如下是我最常使用的課後輔導方式（可複選）：</topic>  
+        <checkbox answer="師生晤談" isChecked="YES"/>  
+        <checkbox answer="電子郵件" isChecked="YES"/>  
+        <checkbox answer="教學助理" isChecked="NO"/>  
+        <checkbox answer="同儕小老師" isChecked="YES"/>  
+        <checkbox answer="教學網站(如:Moodle)" isChecked="NO"/>  
+        <checkbox answer="無" isChecked="NO"/>  
+        <checkbox answer="其他" isChecked="NO"> 
+            <addtionalAnswer/> 
+        </checkbox> 
+    </question>  
+    <question> 
+        <topic>若收到預警通知，我會反省改進學習態度。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X01X05/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X01X05/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X01X05/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X01X05/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X01X05/Y"/> 
+    </question>  
+    <question> 
+        <topic>到今天為止，我預期本學期本門課的成績可能是？</topic>  
+        <radio answer="高分" isChecked="YES" name="X01X03/Y"/>  
+        <radio answer="勉強及格" isChecked="NO" name="X01X03/Y"/>  
+        <radio answer="低分" isChecked="NO" name="X01X03/Y"/> 
+    </question>  
+    <question> 
+        <topic>勾取本學期中我有的正式記錄。（可複選）</topic>  
+        <checkbox answer="預警" isChecked="NO"/>  
+        <checkbox answer="扣考" isChecked="NO"/>  
+        <checkbox answer="曠課" isChecked="NO"/>  
+        <checkbox answer="師生晤談" isChecked="YES"/>  
+        <checkbox answer="課業輔導" isChecked="NO"/>  
+        <checkbox answer="無記錄" isChecked="YES"/> 
+    </question>  
+    <question> 
+        <topic>本門課的教材內容對我難易適中。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X02X01/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X02X01/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X02X01/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X02X01/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X02X01/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課上課進度符合課程大綱。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X02X02/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X02X02/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X02X02/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X02X02/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X02X02/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課採用的教材與授課進度適合班上同學學習。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X02X03/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X02X03/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X02X03/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X02X03/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X02X03/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師的表達條理分明。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X03X04/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X03X04/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X03X04/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X03X04/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X03X04/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師會適時調整教學方法。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X03X05/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X03X05/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X03X05/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X03X05/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X03X05/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課老師的教學方法有助於提升班級的學習成效。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X03X06/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X03X06/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X03X06/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X03X06/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X03X06/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課成績評量採用多元方式。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X04X10/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X04X10/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X04X10/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X04X10/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X04X10/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師於作業或測驗前後會提供適當協助（討論、講解）。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X04X11/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X04X11/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X04X11/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X04X11/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X04X11/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課的評量方式可以合理反映班上同學的學習成效。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X04X12/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X04X12/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X04X12/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X04X12/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X04X12/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師和我互動良好。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X05X15/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X05X15/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X05X15/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X05X15/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X05X15/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師所營造的氛圍有助於提升我的學習動機和興趣。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X05X16/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X05X16/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X05X16/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X05X16/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X05X16/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課老師的班級經營對班上同學學習有幫助。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X05X17/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X05X17/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X05X17/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X05X17/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X05X17/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師教學認真。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X06X19/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X06X19/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X06X19/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X06X19/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X06X19/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師的教導方式有益我的學習。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X06X20/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X06X20/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X06X20/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X06X20/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X06X20/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課老師的教學態度有助於提升班級的學習成效。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X06X21/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X06X21/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X06X21/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X06X21/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X06X21/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，我滿意本門課的教學計畫、教學方法、課業輔導、成績評量及教學態度等。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X07X22/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X07X22/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X07X22/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X07X22/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X07X22/Y"/> 
+    </question>  
+    <question> 
+        <topic>我願意選修本門課老師所教授的其他科目。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X07X23/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X07X23/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X07X23/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X07X23/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X07X23/Y"/> 
+    </question>  
+    <question> 
+        <topic>我願意推薦學弟妹選修本門課老師所教授科目。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X07X24/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X07X24/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X07X24/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X07X24/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X07X24/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課增長了本班同學的基本素養(如：倫理道德、社會知能、生活態度)。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X07X25/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X07X25/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X07X25/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X07X25/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X07X25/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課增長了本班同學的核心能力(如：專業知能、國際視野、創新整合、資訊科技)。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X07X26/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X07X26/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X07X26/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X07X26/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X07X26/Y"/> 
+    </question>  
+    <question> 
+        <topic>整體來說，本門課增長了本班同學的專業技能。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X07X27/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X07X27/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X07X27/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X07X27/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X07X27/Y"/> 
+    </question>  
+    <question> 
+        <topic>如下是我想給本門課老師的幾項建議（可複選）：</topic>  
+        <checkbox answer="「加大音量」" isChecked="NO"/>  
+        <checkbox answer="「清晰咬字」" isChecked="NO"/>  
+        <checkbox answer="「放慢講課速度」" isChecked="NO"/>  
+        <checkbox answer="「板書清晰」" isChecked="NO"/>  
+        <checkbox answer="「準時上課」" isChecked="NO"/>  
+        <checkbox answer="「準時下課」" isChecked="NO"/>  
+        <checkbox answer="「平穩情緒」" isChecked="NO"/>  
+        <checkbox answer="「照綱授課」" isChecked="NO"/>  
+        <checkbox answer="「充實內容」" isChecked="NO"/>  
+        <checkbox answer="「增供參考書目」" isChecked="NO"/>  
+        <checkbox answer="「減少調課/停課」" isChecked="NO"/>  
+        <checkbox answer="「減提無關題材」" isChecked="NO"/>  
+        <checkbox answer="「教材上網」" isChecked="NO"/>  
+        <checkbox answer="「增加實例研討」" isChecked="NO"/>  
+        <checkbox answer="「增供成績評量方式」" isChecked="NO"/>  
+        <checkbox answer="無特別意見" isChecked="YES"/>  
+        <checkbox answer="其他" isChecked="NO"> 
+            <addtionalAnswer/> 
+        </checkbox> 
+    </question>  
+    <question> 
+        <topic>老師對學生沒有性別歧視的表現。</topic>  
+        <radio answer="同意" isChecked="YES" name="X08X05/Y"/>  
+        <radio answer="不同意     事蹟說明" isChecked="NO" name="X08X05/Y"> 
+            <addtionalAnswer/> 
+        </radio> 
+    </question>  
+    <question> 
+        <topic>老師對學生沒有不當的肢體接觸。</topic>  
+        <radio answer="同意" isChecked="YES" name="X08X06/Y"/>  
+        <radio answer="不同意     事蹟說明" isChecked="NO" name="X08X06/Y"> 
+            <addtionalAnswer/> 
+        </radio> 
+    </question>  
+    <question> 
+        <topic>老師與學生維持恰當的性平態度。</topic>  
+        <radio answer="同意" isChecked="YES" name="X08X07/Y"/>  
+        <radio answer="不同意     事蹟說明" isChecked="NO" name="X08X07/Y"> 
+            <addtionalAnswer/> 
+        </radio> 
+    </question>  
+    <question> 
+        <topic>老師不因性別差異而有不當的學習安排。</topic>  
+        <radio answer="同意" isChecked="YES" name="X08X08/Y"/>  
+        <radio answer="不同意     事蹟說明" isChecked="NO" name="X08X08/Y"> 
+            <addtionalAnswer/> 
+        </radio> 
+    </question>  
+    <question> 
+        <topic>本門課老師講解實驗原理與程序條理分明。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X03X04/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X03X04/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X03X04/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X03X04/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X03X04/Y"/> 
+    </question>  
+    <question> 
+        <topic>修習本門課能養成我的實作能力。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X03X05/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X03X05/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X03X05/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X03X05/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X03X05/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師能清楚分析實驗結果和數據的意義。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X03X06/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X03X06/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X03X06/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X03X06/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X03X06/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師對實驗成績評量方式有充分說明。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X04X10/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X04X10/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X04X10/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X04X10/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X04X10/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師的單元設計方式有益我的學習。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X04X11/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X04X11/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X04X11/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X04X11/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X04X11/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師能於實驗中即時適切給予指導。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X05X16/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X05X16/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X05X16/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X05X16/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X05X16/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師注重實驗環境之安全衛生。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X06X19/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X06X19/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X06X19/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X06X19/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X06X19/Y"/> 
+    </question>  
+    <question> 
+        <topic>本門課老師關心學生實驗過程的正確性。</topic>  
+        <radio answer="非常同意" isChecked="YES" name="X06X20/Y"/>  
+        <radio answer="同意" isChecked="NO" name="X06X20/Y"/>  
+        <radio answer="普通" isChecked="NO" name="X06X20/Y"/>  
+        <radio answer="不同意" isChecked="NO" name="X06X20/Y"/>  
+        <radio answer="非常不同意" isChecked="NO" name="X06X20/Y"/> 
+    </question> 
+</Survey>
