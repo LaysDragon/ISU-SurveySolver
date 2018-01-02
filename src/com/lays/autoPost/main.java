@@ -6,6 +6,7 @@ import com.gargoylesoftware.htmlunit.html.*;
 import javax.swing.*;
 import java.io.IOException;
 import java.net.URL;
+import java.util.function.Consumer;
 
 /**
  * Created by ISU on 2016/4/14.
@@ -35,7 +36,7 @@ public class main {
         debug = new DebugWindows("DebugWindows");
 
         WebClient client = new WebClient();
-
+        client.getOptions().setUseInsecureSSL(true);
         class myAlertHandler implements AlertHandler {
             boolean enabled=true;
 
@@ -66,14 +67,14 @@ public class main {
         client.getOptions().setThrowExceptionOnScriptError(false);
         try {
             //===從主頁登入
-            HtmlPage  page = (HtmlPage) client.getPage("http://netreg.isu.edu.tw/wapp/");
+            HtmlPage  page = (HtmlPage) client.getPage("https://netreg.isu.edu.tw/Wapp/Wap_indexmain2.asp");
             debug.htmlOutput.setText( page.asText());
 
             //HtmlForm loginForm = page.getFormByName("wapmain");
             //loginForm.setActionAttribute();
             ((HtmlTextInput) page.getElementsByName("logon_id").get(0)).setText(userid);
             ((HtmlPasswordInput)page.getElementsByName("txtpasswd").get(0)).setText(password);
-            page = (HtmlPage) ((HtmlSubmitInput) page.getElementsByName("submit1").get(0)).click();
+            page = (HtmlPage) ((HtmlButton) page.getElementsByName("submit1").get(0)).click();
             if(page.getEnclosingWindow().getName().equals("popup")){
                 ((TopLevelWindow)page.getEnclosingWindow()).close();
                 page= (HtmlPage) client.getCurrentWindow().getEnclosedPage();
@@ -127,7 +128,7 @@ public class main {
 
 
                 debug.LogOutput.append("嘗試做問卷...\n");
-                page = ((HtmlSubmitInput) inputs.get(3)).click();
+                page = ((HtmlSubmitInput) inputs.get(5)).click();
                 debug.htmlOutput.setText( page.asText());
                 Survey testSurvey = new Survey(page);
                 //SurveySolver.addData(testSurvey.questions.get(1));
