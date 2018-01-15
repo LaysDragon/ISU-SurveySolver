@@ -22,9 +22,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
@@ -41,7 +40,7 @@ public class SurveySolver {
         try {
             SurveyDetabase = reader.read(path);
         } catch (DocumentException e) {
-            if(e.getNestedException() instanceof FileNotFoundException){
+            if(e.getCause() instanceof FileNotFoundException){
                 System.out.println("找不到檔案!!\n創建新的資料庫");
                 creatDetabase(path);
             }else
@@ -61,13 +60,16 @@ public class SurveySolver {
 
     static void saveDataBase(String path){
         try {
-            FileWriter fw = new FileWriter(path);
+//            FileWriter fw = new FileWriter(path);
+            OutputStreamWriter fw = new OutputStreamWriter(new FileOutputStream(path), StandardCharsets.UTF_8);
             OutputFormat of = OutputFormat.createPrettyPrint();
             //OutputFormat of = new OutputFormat(); // 格式化XML
             of.setIndentSize(4); // 設定 Tab 為 4 個空白
             of.setNewlines(true);// 設定 自動換行
             of.setLineSeparator("\r\n");
+            of.setEncoding("UTF-8");
             XMLWriter xw = new XMLWriter(fw, of);
+            SurveyDetabase.setXMLEncoding("UTF-8");
             xw.write(SurveyDetabase);
             xw.close();
 

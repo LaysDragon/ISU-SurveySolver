@@ -6,7 +6,6 @@ import com.gargoylesoftware.htmlunit.html.*;
 import javax.swing.*;
 import java.io.IOException;
 import java.net.URL;
-import java.util.function.Consumer;
 
 /**
  * Created by ISU on 2016/4/14.
@@ -110,24 +109,24 @@ public class main {
             for(HtmlTableRow rows : ((HtmlTable) SurveyPage.getElementsByTagName("table").get(2)).getRows()){
                 DomNodeList<HtmlElement> inputs = rows.getElementsByTagName("input");
                 if(inputs.size()==0)continue;
-                debug.LogOutput.append(" == ");
+                log(" == ");
                 debug.LogOutput.append(" 課程代號:"+rows.getCell(0).asText()+"\t");
                 debug.LogOutput.append(" 課程名稱:"+rows.getCell(1).asText()+"\t");
                 debug.LogOutput.append(" 開課教師:"+rows.getCell(2).asText()+"\t");
-                if(((HtmlHiddenInput)inputs.get(2)).getValueAttribute().equals("Redo_SURVEY")) {
-                    debug.LogOutput.append(" [問卷表狀況:　已完成] ==\n");
+                if(((HtmlHiddenInput)inputs.get(4)).getValueAttribute().equals("Redo_SURVEY")) {
+                    log(" [問卷表狀況:　已完成] ==\n");
                     if(redoSurvey){
-                        debug.LogOutput.append("照要求重做問卷...\n");
+                        log("照要求重做問卷...\n");
                     }else {
                         continue;
                     }
                 }else{
-                    debug.LogOutput.append(" [問卷表狀況:尚未完成]");
-                    debug.LogOutput.append(" == \n");
+                    log(" [問卷表狀況:尚未完成]");
+                    log(" == \n");
                 }
 
 
-                debug.LogOutput.append("嘗試做問卷...\n");
+                log("嘗試做問卷...\n");
                 page = ((HtmlSubmitInput) inputs.get(5)).click();
                 debug.htmlOutput.setText( page.asText());
                 Survey testSurvey = new Survey(page);
@@ -135,8 +134,8 @@ public class main {
                 SurveySolver.doSurvey(testSurvey);
                 page = testSurvey.SubmitEle.click();
                 debug.htmlOutput.setText( page.asText());
-                if(page.asXml().contains("非常抱歉,"))debug.LogOutput.append("問卷作答失敗了QAQ!\n");
-                else debug.LogOutput.append("問卷作答成功!!!\n");
+                if(page.asXml().contains("非常抱歉,")) log("問卷作答失敗了QAQ!\n");
+                else log("問卷作答成功!!!\n");
                 //testSurvey.questions.size();
                 //break;
             }
@@ -156,6 +155,11 @@ public class main {
         }
 
 
+    }
+
+    private static void log(String s) {
+        debug.LogOutput.append(s);
+        System.out.println(s);
     }
 
 }

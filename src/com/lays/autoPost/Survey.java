@@ -45,6 +45,7 @@ public class Survey {
             try {
                 questions.add(new Question(row.getCell(1)));
             } catch (Exception e) {
+                System.out.println(e.getMessage());
                 e.printStackTrace();
             }
         }
@@ -101,7 +102,7 @@ public class Survey {
                         System.out.println("出現第二textNode，串起來用吧!");
                     }
 
-                    String text = ((DomText)node).asText().trim();
+                    String text = ((DomText) node).asText().trim().trim().replaceAll("^　+|　+$", "").trim();
                     if(text.equals("")) continue;
 
                     if(findedEle==null && !Topic.equals("")){
