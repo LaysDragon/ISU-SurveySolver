@@ -1,5 +1,7 @@
 package com.lays.autoPost;
 
+
+
 import com.gargoylesoftware.htmlunit.*;
 import com.gargoylesoftware.htmlunit.html.*;
 
@@ -106,14 +108,14 @@ public class main {
             debug.htmlOutput.setText( ((HtmlPage)mainFrame.getEnclosedPage()).asText());
             HtmlPage SurveyPage = (HtmlPage) client.getPage(client.getCurrentWindow(),"main",new WebRequest(new URL("http://netreg.isu.edu.tw/wapp/wap_13/wap_130100.asp")));
             debug.htmlOutput.setText( SurveyPage.asText());
-            for(HtmlTableRow rows : ((HtmlTable) SurveyPage.getElementsByTagName("table").get(2)).getRows()){
+            for(HtmlTableRow rows : ((HtmlTable) SurveyPage.getElementsByTagName("table").get(1)).getRows()){
                 DomNodeList<HtmlElement> inputs = rows.getElementsByTagName("input");
                 if(inputs.size()==0)continue;
                 log(" == ");
-                debug.LogOutput.append(" 課程代號:"+rows.getCell(0).asText()+"\t");
-                debug.LogOutput.append(" 課程名稱:"+rows.getCell(1).asText()+"\t");
-                debug.LogOutput.append(" 開課教師:"+rows.getCell(2).asText()+"\t");
-                if(((HtmlHiddenInput)inputs.get(4)).getValueAttribute().equals("Redo_SURVEY")) {
+                debug.LogOutput.append(" 課程代號:"+rows.getCell(1).asText()+"\t");
+                debug.LogOutput.append(" 課程名稱:"+rows.getCell(2).asText()+"\t");
+                debug.LogOutput.append(" 開課教師:"+rows.getCell(3).asText()+"\t");
+                if(((HtmlHiddenInput)inputs.get(5)).getValueAttribute().equals("Redo_SURVEY")) {
                     log(" [問卷表狀況:　已完成] ==\n");
                     if(redoSurvey){
                         log("照要求重做問卷...\n");
@@ -127,7 +129,7 @@ public class main {
 
 
                 log("嘗試做問卷...\n");
-                page = ((HtmlSubmitInput) inputs.get(5)).click();
+                page = ((HtmlSubmitInput) inputs.get(0)).click();
                 debug.htmlOutput.setText( page.asText());
                 Survey testSurvey = new Survey(page);
                 //SurveySolver.addData(testSurvey.questions.get(1));

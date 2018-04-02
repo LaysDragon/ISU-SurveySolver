@@ -30,7 +30,7 @@ public class mainWindow extends JFrame {
     }
 
     private mainWindow(){
-        super("自動填問卷 V1.2");
+        super("自動填問卷 V1.3");
 
         setContentPane(rootpanel);
 
